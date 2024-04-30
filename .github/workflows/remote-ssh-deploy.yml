@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: executing remote ssh commands using password
-      uses: itristenx/bby_eml@master
+      uses: itristenx/bby_eml@main
       with:
         host: ${{ secrets.IP }}
         username: ${{ secrets.USER }}
