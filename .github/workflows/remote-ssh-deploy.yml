@@ -16,4 +16,4 @@ jobs:
         script: |
           cd a.txyz.cloud
           ${{ secrets.SCRIPT}}
-          logout
+          exit
